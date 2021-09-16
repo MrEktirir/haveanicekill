@@ -1,0 +1,74 @@
+/* Text */
+.text-center{
+    text-align: center;
+}
+.heading-small{
+    font-size: 1.25rem;
+}
+.heading-medium{
+    font-size: 1.5rem;
+}
+.heading-big{
+    font-size: 1.75rem;
+}
+.product-name{
+    margin:0;
+    margin-top: 1rem;
+    padding-top: 5px;
+    padding-bottom: 0;
+    font-family: "IM Fell English", sans-serif ;
+    font-size: 1 rem;
+    font-weight: bold;
+    letter-spacing: 0.8;
+}
+.product-exp{
+    font-family: "IM Fell English", sans-serif;
+    background-color: #FFFFFF;
+    color: #000000;
+    font-style: normal;
+    font-weight: bold;
+    font-variant: normal;
+    text-align: center;
+    text-decoration: none
+}
+.shoplink{
+    background: #1900ff;
+    -webkit-border-radius: 14;
+    -moz-border-radius: 14;
+    border-radius: 14px;
+    font-family: Arial;
+    color: white;
+    font-size: 15px;
+    padding: 5px 10px 5px 10px;
+    text-decoration: none
+}
+.shoplink:hover{
+    background: #2d21a0;
+    -webkit-border-radius: 14;
+    -moz-border-radius: 14;
+    border-radius: 14px;
+    font-family: Arial;
+    color: white;
+    font-size: 15px;
+    padding: 5px 10px 5px 10px;
+    text-decoration: none;
+    opacity: 0.7;
+}
+
+/* Colors */
+.colorhex-white{
+    background: #FFFFFF;
+}
+
+/* Ayraç */
+.enteranc-hr{
+    display: block;
+    unicode-bidi: isolate;
+    margin-block-start: 0.5em;
+    margin-block-end: 0.5em;
+    margin-inline-start: auto;
+    margin-inline-end: auto;
+    overflow: hidden;
+    border-style: inset;
+    opacity: 0.5;
+}
