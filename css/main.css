@@ -1,0 +1,126 @@
+html{
+    font-family: 'Courier New', monospace;
+}
+/* Navigation - Bar */
+.baslik a{
+    text-decoration: none;
+}
+#navbar{
+    color: #fff;;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 5rem;
+    height: 50px;
+    border: 0.1px black;
+    z-index: 10;
+}
+#navbar h3{
+    color: black;
+    text-align: center;
+}
+#navbar ul{
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    padding-top: 0.6rem;
+    flex-grow:1;
+}
+#navbar ul li{
+    list-style-type: none;
+    padding: 0.25rem;
+}
+#navbar ul li a{
+    padding: 2rem;
+    text-decoration: none;
+    
+}
+#navbar ul li a:visited {
+    text-decoration: none;
+    color:black;
+}
+
+/* Home Part */
+.home{
+    margin: 0.75rem;
+    display: flex;
+    justify-content: center;
+}
+.home video{
+    margin: 0.75rem;
+}
+
+/* Catalog */
+.catalog{
+    margin:0.25rem;
+}
+.catalog-container{
+    margin: 2rem;
+    width: auto;
+    height: auto;
+}
+.catalog-container .products{
+    display: flex;
+}
+.catalog-container .products .first-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: stretch;
+    align-items: center;
+    margin:auto;
+    width: 100%;
+    height: 100%;
+    border: 1px solid white;
+}
+.catalog-container .products .second-container{
+    display: flex;
+    flex-direction: column;
+    justify-content:stretch;
+    align-items: center;
+    margin: auto;
+    width: 100%;
+    height: 100%;
+    border: 1px solid white;
+}
+.catalog-container .products .marker{
+    background: rgb(179, 167, 167);
+    height:auto;
+    width: 1%;
+    border-radius: 5px;
+}
+
+.catalog-container .products div img{
+    padding-top: 1rem;
+    width: 400px;
+    height: 400px;
+    object-fit: cover;
+}
+/* .catalog-container .products div button{
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+} */
+
+/* Footer */
+.footer{
+    color: rgba(0,0,0,0.5);
+    padding: 10px 0 15px;
+    font-size: .9em;
+    max-height: 50px;
+}
+.footer .rights{
+    max-width: 700px;
+    margin-left: auto;
+    margin-right:auto;
+    text-align:center;
+}
+.footer a{
+    size: 2rem;
+}
